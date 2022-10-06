@@ -1,0 +1,57 @@
+.mainSection {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #e8e0e0;
+	/* background-color: #333232; */
+}
+
+.mainSection h2 {
+	font-size: 4rem;
+}
+.mainSection p {
+	font-size: 2.4rem;
+}
+
+.scroll {
+	background: transparent;
+	position: relative;
+	bottom: -20rem;
+	padding: 1rem;
+	border: none;
+	cursor: pointer;
+	animation: arrowAnimation 3s infinite;
+}
+
+@keyframes arrowAnimation {
+	0% {
+		bottom: -20rem;
+	}
+
+	15% {
+		bottom: -22rem;
+	}
+
+	30% {
+		bottom: -21rem;
+	}
+
+	45% {
+		bottom: -22rem;
+	}
+
+	60% {
+		bottom: -21rem;
+	}
+
+	75% {
+		bottom: -22rem;
+	}
+
+	100% {
+		bottom: -20rem;
+	}
+}

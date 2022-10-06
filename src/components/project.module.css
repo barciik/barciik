@@ -1,0 +1,39 @@
+.card {
+	display: flex;
+	min-height: 50rem;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2rem;
+	padding: 1rem;
+	background-color: #393e41;
+	border: 2px solid #49c6e5;
+	border-radius: 1rem;
+	transition: transform 0.3s;
+	max-width: 40rem;
+}
+
+.image {
+	width: 95%;
+	align-self: center;
+}
+
+.card h3,
+p {
+	text-align: center;
+	margin: 1rem;
+	font-size: 2rem;
+}
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+.more {
+	background-color: #49c6e5;
+	border-radius: 2px;
+	border: 1px solid #0091ad;
+	align-self: flex-end;
+	padding: 1rem;
+	cursor: pointer;
+}
