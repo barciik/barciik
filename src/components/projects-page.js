@@ -1,5 +1,4 @@
 import React from 'react';
-import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 import Project from './project';
 import classes from './projects-page.module.css';
 
@@ -38,8 +37,6 @@ const ProjectsPage = (props) => {
 		<div className={classes.projectsSection}>
 			<h2>Here's some of my work</h2>
 			<div className={classes.cards}>
-				<FiArrowLeft className={classes.leftArrow} />
-				<FiArrowRight className={classes.rightArrow} />
 				{projects.map((el) => {
 					return (
 						<Project
